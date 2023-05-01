@@ -103,11 +103,11 @@ font-size: 25px;
 }
 
 .contenedor-servicio img{
-width: 45%;
+width: 20%;
 }
 
 .checklist-servicio{
-    width:45%;
+    width:50%;
 }
 
 .service{
@@ -350,4 +350,38 @@ font-size: 40px;
     .subtitulo{
         font-size: 35px;
     }
+}
+
+@media screen and (max-width:400px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .agregar-imagen{
+        width: 95%;
+    }
+
+    .burga{
+        top:20px;
+        right: 20px;
+    }
+    
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 35px;
+    }
+
+    .social-media-icon{
+
+    width: 60px;
+    height: 60px;
+    }
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
 }
